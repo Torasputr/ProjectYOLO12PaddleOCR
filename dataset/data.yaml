@@ -1,0 +1,13 @@
+train: C:/suniB/S2/Semester8/DeepLearning/Project/TrainingYOLO12PaddleOCR/dataset/train
+val: C:/suniB/S2/Semester8/DeepLearning/Project/TrainingYOLO12PaddleOCR/dataset/valid
+test: C:/suniB/S2/Semester8/DeepLearning/Project/TrainingYOLO12PaddleOCR/dataset/test
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: i-gusti-fajar
+  project: perbandingan-plat
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/i-gusti-fajar/perbandingan-plat/dataset/1
